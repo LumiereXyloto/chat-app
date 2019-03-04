@@ -1,6 +1,7 @@
 // import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import './App.css';
+import {Button} from 'antd-mobile'
 
 // class App extends Component {
 //   render() {
@@ -32,7 +33,12 @@ import React from 'react'
 class App extends React.Component{
   render(){
     const lbw = 'lbw'
-    return <h2>orz,{lbw}</h2>
+    return (
+      <div>
+        <h2>orz,{lbw}</h2>
+        <Button type="primary">hhh</Button>
+      </div>
+    )
   }
 }
 
